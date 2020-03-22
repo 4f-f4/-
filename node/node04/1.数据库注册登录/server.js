@@ -9,6 +9,6 @@ const app = express()
 let UserRouter = require('./router/userRouter')
 app.use('/user',UserRouter)
 
-app.listen(3000,()=>{
+app.listen(4000,()=>{
   console.log('服务器启动')
 })

@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/add',(req,res)=>{
-  res.send('食品添加')
+  res.send('食品添加成功')
 })
 // 删除食品
 router.get('/del',(req,res)=>{
